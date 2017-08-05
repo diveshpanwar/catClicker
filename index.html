@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cat Clicker</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body class="bg-warning">
+    <div class="container">
+      <div class="header">
+        <h1 class="text-center text-info text-bold">Cat Clicker</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-3" id="catList">
+          <h2 class="text-bold">Cat List</h2>
+          <ul class="text-info bg-info text-bold text-mid">
+          </ul>
+        </div>
+        <div class="col-md-6 text-center">
+          <h3 class="text-bold text-center" id="catTitle">Meow</h3>
+          <img id="catImg1" src="img/cat1.jpg" alt="Meow" class="img-responsive text-center img-circle pointer">
+        </div>
+        <div class="col-md-3 bg-danger">
+          <h4 class="text-warning text-justify text-bold" id="counter1">Clicks on Meow: 0</h4>
+        </div>
+      </div>
+      <div class="row text-center" style="margin-top: 10px;">
+        <div class="col-md-4">
+          <button type="button" class="btn btn-danger form-control" id="admin">Admin</button>
+        </div>
+        <div class="col-md-8 text-center" id="adminDiv">
+          <input type="text" id="catName" class="form-control form-group">
+          <input type="text" id="url" class="form-control form-group">
+          <input type="text" id="clicks" class="form-control form-group">
+          <button type="button" id="cancel" class="btn btn-warning">Cancel</button>
+          <button type="button" id="save" class="btn btn-success">Save</button>
+        </div>
+      </div>
+      <div class="footer row">
+        <h4 class="text-center text-bold">Prepared as mentioned, in the partial fulfillment of FEND</h4>
+      </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/app2.js"></script>
+  </body>
+</html>
